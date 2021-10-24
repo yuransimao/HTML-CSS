@@ -1,0 +1,75 @@
+@charset "UFT-8";
+
+body{ 
+margin: 0 auto;
+background-image: url(../tr3/img/1666073.png);
+background-repeat: no-repeat;
+background-size: cover;
+width: 100vw;
+height:100vmin;
+}
+
+ul{
+padding: 0px!important;
+}
+.menu-principal{
+background-color: #99B4BF;
+width:980%;
+height:60px;
+margin:0% auto;
+
+}
+main{
+margin:0% auto;
+width:980px;
+float: left;
+position: relative;
+}
+.moda{
+
+font-family:cursive;
+font-size: 20px;
+color: #40333F;
+padding: 20px;
+}
+.menu-2{
+background-color: #F2EBDF;
+width: 980%;
+margin: 0 auto;
+border-bottom: 3px solid #7c929b;
+}
+
+.menus ,ul ,li{
+display:inline-block;
+margin-left:100px;
+height: 20px;
+}
+.menus ,ul ,li ,a{
+color: #584756;
+text-decoration: none;
+font-size: 18px;
+text-transform: uppercase;
+}
+menus ,ul ,li:hover{
+border-bottom: 2px dashed #a3cada;
+
+}
+.menus ,ul ,li ,a:hover{
+color: #a3cada;
+}
+.busca{
+    text-align: center;
+    width: 70px;
+    float: center;
+}
+.busca,input{
+    height: 20px;
+    border: 20 rgba(194, 187, 187, 0.322);
+margin-top: 10px;
+}
+
+.col-100{
+width: 100%;
+float: left;
+position: relative;
+}

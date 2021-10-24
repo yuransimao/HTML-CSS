@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinamicas</title>
+</head>
+<body>
+    <h1>Imagens</h1>
+    <p>Abrindo site em varios dispositivos</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagem/foto1.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="imagem/foto2.png" type="image/png">
+        <img src="Imagem/foto3.png" alt="Grande">
+    </picture>
+    <h1>Audio</h1>
+    <p>Reproduzindo audio no site</p>
+    <audio preload="auto" autoplay controls loop>
+        <source src="media/Killa Hill - Minha Tropa  (Está Aqui) [feat. Paulelson].mp3" type="mpeg">
+    </audio>
+
+</body>
+</html>

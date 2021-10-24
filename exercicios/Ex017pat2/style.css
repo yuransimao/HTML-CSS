@@ -1,0 +1,16 @@
+@charset "UFT-8";
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1, h2{
+    text-align: center;
+    font-size: 2em;
+    font-weight: normal;
+    font-style: italic;
+
+}
+p{
+    text-align: justify;
+    text-indent: 3em;
+}

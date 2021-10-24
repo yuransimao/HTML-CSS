@@ -1,0 +1,19 @@
+@charset "UFT-8";
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+
+    h1{
+        font-size: 3em;
+    font-weight: bolder;
+    font-style: italic;
+    
+    }
+    h2{
+        text-align: center;
+    }
+    p{
+        text-align: justify;
+        text-indent: 10px;
+    }
+        
